@@ -9,7 +9,6 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,9 +19,6 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  /* display: flex;
-  flex-direction: row; */
-  /* gap: 10px 0px; */
 }
 
 .icon {
@@ -53,7 +49,6 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
-  /* margin-right: 10px; */
 }
 
 button {
@@ -77,25 +72,15 @@ button.cancel {
 .container {
   display: flex;
   flex-direction: row;
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
-  /* margin: 2px; */
 }
 
 .position-icon {
-  /* background-color: #888; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* justify-content: space-between; */
 }
 
 .position-message {
-  /* background-color:aliceblue; */
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* align-items: flex-start; */
-  /* justify-content: space-between; */
   margin: 5px 10px;
 }
 
@@ -103,7 +88,6 @@ button.cancel {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* margin: 5px 0px; */
 }
 
 .space {
